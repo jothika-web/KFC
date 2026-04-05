@@ -290,6 +290,7 @@ a{
 }
 .i{
   border: 2px solid grey;
+  color: white;
   padding: 5px;
   border-radius: 50%;
 }
@@ -304,5 +305,12 @@ a{
     margin: -50px;
     background-color: #eae7e4;
     padding: 40px;
+}
+.signin{
+    display: none;
+}
+.footer-top{
+    flex-wrap: wrap;
+    gap: 40px;
 }
 }
