@@ -71,7 +71,6 @@ a{
     border-radius: 25px;
     text-decoration: none;
 }
-
 .modal {
     position: fixed;
     top: 0;
@@ -98,7 +97,6 @@ a{
     border-radius: 5px;
     position: relative;
 }
-
 .close {
     position: absolute;
     right: 15px;
@@ -110,11 +108,9 @@ a{
 .modal-content h2 {
     margin-bottom: 10px;
 }
-
 .modal-content h3 {
     margin: 20px 0;
 }
-
 .option {
     width: 80%;
     padding: 12px;
@@ -171,8 +167,6 @@ a{
 .offer::-webkit-scrollbar {
     display: none;
 }
-
-
 .offer-card {
     display: flex;
     flex-direction: column;
@@ -183,15 +177,12 @@ a{
     text-align: center;
     box-shadow: 0 4px 10px black;
 }
-
 .offer-card img {
     width: 100%;
 }
-
 .offer-card p {
     color: gray;
 }
-
 .offer-card a {
     display: block;
     margin: 10px 0;
@@ -199,7 +190,6 @@ a{
     text-decoration: underline;
     color: black;
 }
-
 .offer-card button {
     background: black;
     color: white;
@@ -214,16 +204,29 @@ a{
     display: flex;
     position: relative;
     width: 220px;
-    height: 40px;
-    margin: 10px;
+    margin: 15px;
+}
+.search input{
+    width: 100%;
+    padding: 12px 15px 12px 40px; /* space for icon */
+    border-radius: 25px;
+    border: 1px solid #777;
+    outline: none;
+    font-size: 14px;
+}
+.search i{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
 }
 input{
     width: 100%;
-    padding: 10px 10px 10px 50px;
     border-radius: 20px;
     font-size: 12px;
     font-weight: bold;
-    border: 1px solid grey;
+    border: 1px solid rgb(255, 6, 6);
 }
 .input i{
     position: absolute;
@@ -356,19 +359,67 @@ a{
   margin: 20px auto;
 }
 @media (max-width: 991.98px){
-    .bottom .left div,.signin {
-    display: none;
-    }
-    .sidebar{
-        height: 100px;
-        width: 50%;
-        /* display: hidden; */
-    }
-    .grid{
+.bottom .left div,.signin {
+display: none;
+}
+.sidebar{
+    height: 100px;
+    width: 50%;
+}
+.Menu{
+    width: 95%;
+}
+.grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    }
-    .card{
+}
+.card{
         gap: 5px;
-    }
+}
+.topbar{
+    text-align:center;
+    padding:25px 10px;
+    flex-direction:column;
+}
+.icon{
+    justify-content:center;
+}
+.footer{
+    padding:60px 20px;
+}
+.footer-top{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:40px;
+}
+.logo{
+    display:flex;
+    justify-content:center;
+}
+.links{
+    gap:25px;
+}
+.links h4{
+    font-size:22px;
+}
+.links p{
+    margin:8px 0;
+}
+.loc{
+    justify-content:center;
+}
+.apps{
+    display:flex;
+    align-items:center;
+}
+.icon{
+    justify-content:center;
+    margin-top:20px;
+}
+.footer-bottom{
+    font-size:13px;
+    padding-top:20px;
+}
+
 }
